@@ -1,0 +1,40 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../famicom-mini.xml</include>
+	<include>./../boxart_type/square_std.xml</include>
+
+	<view name="system">
+
+		<image name="logo">
+			<path>./logo.png</path>
+        </image>
+		
+		<helpsystem name="help">
+			<textColor>f11c00</textColor>
+			<iconColor>f11c00</iconColor>
+		</helpsystem>
+		
+	</view>
+
+	<view name="basic, detailed, system">
+	
+		<image name="header" extra="true">
+			<path>./header.png</path>
+			<size>1 0</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<color>f3bf3f</color>
+		</image>
+
+	</view>
+
+	<view name="basic, detailed">
+		<image name="logo">
+			<path>./logo.png</path>
+			<pos>2 2</pos>
+			<maxSize>0.1 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+	</view>
+	
+</theme>
