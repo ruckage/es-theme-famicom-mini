@@ -1,7 +1,7 @@
 <theme>
     <formatVersion>3</formatVersion>
     <include>./../famicom-mini.xml</include>
-	<include>./../boxart_type/retropie.xml</include>
+	
 
 	<view name="system">
 
@@ -23,71 +23,17 @@
 			<size>1 0</size>
 			<pos>0 0</pos>
 			<origin>0 0</origin>
-			<color>f3bf3f</color>
 		</image>
 
 	</view>
 
 	<view name="basic, detailed">
-		
-		<image name="background" extra="true">
-			<path>./../art/retropie_background.png</path>
-			<size>0 1</size>
-			<pos>0.5 0.5</pos>
-			<origin>0.5 0.5</origin>
-		</image>
-	
-	
 		<image name="logo">
 			<path>./logo.png</path>
 			<pos>2 2</pos>
 			<maxSize>0.1 0.1</maxSize>
 			<origin>0 0.5</origin>
 		</image>
-		
-		<text name="md_playcount">
-			<alignment>center</alignment>
-			<pos>2 2</pos>
-			<size>0.07265625 0.0458333333333333</size>
-		</text>
-
-		<text name="md_players">
-			<alignment>left</alignment>
-			<pos>2 2</pos>
-			<size>0.01875 0.0458333333333333</size>
-		</text>
-		
-		<text name="md_genre">
-			<pos>2 2</pos>
-			<size>0.234375 0.0375</size>
-		</text>
-
-		<text name="md_publisher">
-			<pos>2 2</pos>
-			<size>0.234375 0.0375</size>
-		</text>
-		
-		<text name="md_developer">
-			<pos>2 2</pos>
-			<size>0.234375 0.0375</size>
-		</text>
-		
-		<datetime name="md_releasedate">
-			<pos>2 2</pos>
-			<color>aec440</color>
-		</datetime>
-		
-		<rating name="md_rating">
-			<pos>2 2</pos>
-			<size>0.01875 0.0333333333333333</size>
-		</rating>
-		
-		<text name="md_description">
-			<size>0.2375 0.3555555555555556</size>
-			<pos>0.7395833333333333 0.3555555555555556</pos>
-		</text>
-				
-				
 
 	</view>
 	

@@ -1,7 +1,7 @@
 <theme>
     <formatVersion>3</formatVersion>
     <include>./../famicom-mini.xml</include>
-	<include>./../boxart_type/square_std.xml</include>
+	
 
 	<view name="system">
 
@@ -23,7 +23,6 @@
 			<size>1 0</size>
 			<pos>0 0</pos>
 			<origin>0 0</origin>
-			<color>f3bf3f</color>
 		</image>
 
 	</view>
@@ -35,6 +34,7 @@
 			<maxSize>0.1 0.1</maxSize>
 			<origin>0 0.5</origin>
 		</image>
+
 	</view>
 	
 </theme>
