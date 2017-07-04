@@ -1,6 +1,6 @@
 Theme designed by Ruckage
-Version 2
-19/04/2017
+Version 2.1
+03/07/2017
 
 Theme based on and inspired by the look of the menus used on the Famicom mini.
 Designed for use at 1080p only.
@@ -9,7 +9,7 @@ Designed for use at 1080p only.
 
 License
 
-This theme is being actively developed, a great deal of work has been put into the theme so please do not use the graphics I have created in other projects (with the exception of any graphics that are an exact copy of of those from the real 'NES classic'/'Famicom mini' menu).
+This theme is being actively developed, a great deal of work has been put into the theme and art so please do not use the graphics I have created in other projects (with the exception of any graphics that are an exact copy of of those from the real 'NES classic'/'Famicom mini' menu).
 
 You are free to modify the theme for your personal use only - please do not share modified versions of this theme.
 
@@ -17,7 +17,7 @@ Commercial distribution is prohibited
 
 If in doubt please ask in the dedictated topic at the retropie forum: https://retropie.org.uk/forum/topic/8391/cardboard-mini-nes-nes-mini-and-famicom-mini-themes
 
--------------------------------------------------------------------------------  
+-------------------------------------------------------------------------------   
 
 
 
@@ -56,10 +56,22 @@ Wonderswan Color
 Final Burn Alpha
 Nintendo 64
 Sega Cd
+Odyssey 2
+Nintendo DS
+Arcade
+Daphne
+PSP
+SG-1000
+Atari Lynx
+Ports
+Virtual Boy
 
 Thanks to retropie forum member Stuart2773 for the inspiration.
 
 Thanks to reddit user soulctcher for providing the sound effects.
+
+03/07/2017
+Fixed gamelist issues in the latest version of ES.  Added support for various resolutions including 4x3 resolutions (see ## RESOLUTION AND LAYOUTS GUIDE ##.txt for instructions). Added Daphne,PSP, SG-1000, Atari Lynx, Ports, and Virtual Boy.  Added new style carousel and pixel art icons.  Added new 'neogeo' style.
 
 19/04/2017
 Large number of changes.  Layout has been changed to support preview art of any size/aspect ratio without stretching.  Additionally a new system has been implemented to allow the end user to pick from a selection of 24 different metadata layouts. You can also switch between Famicom and NES style. 3 new systems have been added, Odyssey 2, Nintendo DS, and Arcade.

@@ -6,7 +6,7 @@
 	<view name="system">
 
 		<image name="logo">
-			<path>./logo.png</path>
+			<path>./carousel_logo.png</path>
         </image>
 		
 		<helpsystem name="help">
@@ -16,18 +16,32 @@
 		
 	</view>
 
-	<view name="basic, detailed, system">
+	<view name="basic, detailed, system, video">
 	
 		<image name="header" extra="true">
 			<path>./header.png</path>
-			<size>1 0</size>
+			<size>0 0.1185185185185185</size>
 			<pos>0 0</pos>
 			<origin>0 0</origin>
+		</image>
+		
+		<image name="header-mask" extra="true">
+			<path>./header-mask.png</path>
+			<size>0 0.1185185185185185</size>
+			<pos>1 0</pos>
+			<origin>1 0</origin>
+		</image>
+		
+		<image name="developer" extra="true">
+			<path>./developer.png</path>
+			<size>0 0.1185185185185185</size>
+			<pos>1 0</pos>
+			<origin>1 0</origin>
 		</image>
 
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, video">
 		<image name="logo">
 			<path>./logo.png</path>
 			<pos>2 2</pos>

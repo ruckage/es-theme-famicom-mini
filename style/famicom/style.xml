@@ -16,17 +16,35 @@ author:			ruckage
 			<color>f3bf3f</color>
 		</image>
 		
+		<image name="carousel_bar" extra="true">
+			<path>./carousel_bar.png</path>
+			<origin>0.5 0</origin>
+			<zIndex>30</zIndex>
+		</image>	
+
+		<text name="systemInfo">
+			<color>000000</color>
+		</text>		
+		
 	</view>
 	
-    <view name="system, basic, detailed">
+    <view name="system, basic, detailed, video">
 	
 		<image name="header" extra="true">
 			<color>f3bf3f</color>
 		</image>
+		
+		<image name="header-mask" extra="true">
+			<color>a70000</color>
+		</image>
+		
+		<image name="developer" extra="true">
+			<color>f3bf3f</color>
+		</image>		
 
 	</view>
 
-    <view name="basic, detailed">
+    <view name="basic, detailed, video">
 	
 		<image name="background" extra="true">
 			<path>./menu_background.png</path>
@@ -110,10 +128,11 @@ author:			ruckage
 		</datetime>
 		
 		<textlist name="gamelist">
-			<selectorColor>0073ef</selectorColor>
+			<selectorColor>ffffff</selectorColor>
 			<selectedColor>2bfffe</selectedColor>
 			<primaryColor>000000</primaryColor>
 			<secondaryColor>0073ef</secondaryColor>
+			<selectorImagePath>./selector.png</selectorImagePath>
 		</textlist>		
 		
 		<image name="system_help" extra="true">

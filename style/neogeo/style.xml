@@ -1,0 +1,144 @@
+<!--
+author:			ruckage
+-->
+
+
+<theme>
+    <formatVersion>3</formatVersion>
+
+    <view name="system">
+	
+		<image name="background" extra="true">
+			<path>./system_background.png</path>
+		</image>
+		
+		<image name="system_help" extra="true">
+			<color>c6af55</color>
+		</image>
+		
+		<image name="carousel_bar" extra="true">
+			<path>./carousel_bar.png</path>
+			<origin>0.5 0</origin>
+			<zIndex>30</zIndex>
+		</image>
+
+		<text name="systemInfo">
+			<color>c6b055</color>
+		</text>
+		
+	</view>
+	
+    <view name="system, basic, detailed, video">
+	
+		<image name="header" extra="true">
+			<color>c6af55</color>
+		</image>
+		
+		<image name="header-mask" extra="true">
+			<color>272727</color>
+		</image>
+		
+		<image name="developer" extra="true">
+			<color>c6af55</color>
+		</image>
+
+	</view>
+
+    <view name="basic, detailed, video">
+
+		<image name="background" extra="true">
+			<path>./menu_background.png</path>
+		</image>
+
+		<image name="gamelist_help" extra="true">
+			<color>c6af55</color>
+		</image>		
+
+		<image name="left_window_border, right_window_border" extra="true">
+			<path>./window_border.png</path>		
+			<color>272727</color>
+		</image>
+		
+		<image name="left_window_body, right_window_body" extra="true">
+			<path>./window_body.png</path>
+			<color>686868</color>
+		</image>
+		
+		<image name="left_window_box, right_window_box" extra="true">
+			<path>./window_box.png</path>
+			<color>272727</color>
+		</image>
+
+
+
+
+		
+		<image name="bar_1, bar_2, bar_3" extra="true">
+			<path>./info_bar.png</path>		
+		</image>	
+
+		<image name="bar_4" extra="true">
+			<path>./rating_bar.png</path>		
+		</image>	
+
+		<image name="bar_1, bar_2, bar_3, bar_4" extra="true">
+			<color>000000</color>
+		</image>	
+
+
+		<rating name="md_rating">
+			<filledPath>./heart_filled.png</filledPath>
+			<unfilledPath>./heart_empty.png</unfilledPath>
+		</rating>		
+
+		
+		
+		
+		<image name="player_box" extra="true">
+			<path>./player_box.png</path>
+			<color>cf0101</color>		
+		</image>
+
+		<text name="publisher_label, developer_label, genre_label, rating_label, played_label" extra="true">
+			<color>f11c00</color>
+		</text>
+		
+		<text name="players_label" extra="true">
+			<color>ffffff</color>
+		</text>
+
+		<text name="md_rating, md_developer, md_publisher, md_genre, md_playcount, md_releasedate">
+			<color>ffffff</color>
+		</text>		
+		
+		<text name="md_description">
+			<color>757575</color>
+		</text>		
+		
+		<text name="md_players">
+			<color>ffffff</color>
+		</text>
+		
+		<text name="md_playcount">
+			<color>ffffff</color>
+		</text>
+
+		<datetime name="md_releasedate">
+			<color>f11c00</color>
+		</datetime>
+		
+		<textlist name="gamelist">
+			<selectorColor>ffffff</selectorColor>
+			<selectedColor>ffffff</selectedColor>
+			<primaryColor>757575</primaryColor>
+			<secondaryColor>0073ef</secondaryColor>
+			<selectorImagePath>./selector.png</selectorImagePath>
+		</textlist>		
+		
+		<image name="system_help" extra="true">
+			<color>000000</color>
+		</image>
+
+	</view>
+	
+</theme>
