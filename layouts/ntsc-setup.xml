@@ -9,6 +9,15 @@ author:			ruckage
 	<feature supported="carousel">
 
 		<view name="system">
+		
+		<image name="background" extra="true">
+			<size>1.333333333 1</size>
+		</image>		
+		
+		<image name="system_help" extra="true">
+			<size>1.33333333 0.1074074074074074</size>
+			<zIndex>200</zIndex>
+		</image>		
 
 			<carousel name="systemcarousel">
 				<pos>-0.17 0.3</pos>
@@ -20,10 +29,34 @@ author:			ruckage
 
 		</view>
 
-	</feature>	
+	</feature>
+	
+	<view name="basic, detailed, system, video">
+	
+		<image name="header" extra="true">
+			<size>1.33333333 0.1185185185185185</size>
+		</image>
+		
+		<image name="header-mask" extra="true">
+			<size>0.7111111093333333 0.1185185185185185</size>
+		</image>
+		
+		<image name="developer" extra="true">
+			<size>0.7111111093333333 0.1185185185185185</size>
+		</image>
+
+	</view>
 	
 
     <view name="basic, detailed, video">
+	
+		<image name="background" extra="true">
+			<size>1.333333333 1</size>
+		</image>	
+		
+		<image name="gamelist_help" extra="true">
+			<size>1.33333333 0.1074074074074074</size>
+		</image>		
 	
 		<image name="md_image">
 			<maxSize>0.3222222222222222 0.4296296296296296</maxSize>
@@ -31,11 +64,13 @@ author:			ruckage
 		</image>	
 			
 		<image name="left_window_border" extra="true">
+			<size>0.3888888888791667 0.6666666666666667</size>		
 			<pos>0 0.5</pos>
 			<origin>0 0.5</origin>
 		</image>
 		
 		<image name="left_window_body" extra="true">
+			<size>0.3777777768333333 0.6518518518518519</size>	
 			<pos>0.0055555555555556 0.5</pos>
 			<origin>0 0.5</origin>
 		</image>
@@ -58,7 +93,7 @@ author:			ruckage
 		<image name="left_window_box" extra="true">
 			<pos>0.0111111111111111 0.5</pos>
 			<origin>0 0.5</origin>
-			<size>0 0.4888888888888889</size>
+			<size>0.36666666575 0.4888888888888889</size>
 		</image>				
 
 		<image name="missing_art" extra="true">
@@ -70,26 +105,28 @@ author:			ruckage
 		
 		<image name="bar_1" extra="true">
 			<pos>0.0111111111111111 0.1814814814814815</pos>		
-			<size>0 0.1111111111111111</size>
+			<size>0.36666666575 0.1111111111111111</size>
 		</image>		
 		
 		<image name="bar_2" extra="true">
 			<pos>2 1</pos>
-			<size>0 0.1111111111111111</size>
+			<size>0.36666666575 0.1111111111111111</size>
 		</image>		
 
 		<image name="bar_3" extra="true">
 			<pos>2 1</pos>
-			<size>0 0.1111111111111111</size>
+			<size>0.36666666575 0.1111111111111111</size>
 		</image>
 
 		<image name="bar_4" extra="true">
 			<pos>0.0111111111111111 0.707407407407407</pos>
 			<origin>0 0</origin>
+			<size>0.36666666575 0.1111111111111111</size>
 		</image>
 
 		<image name="player_box" extra="true">
 			<pos>0.2888888888888889 0.72962962962963</pos>
+			<size>0.0722222220416667 0.0666666666666667</size>			
 			<origin>0 0</origin>
 		</image>
 		
@@ -111,7 +148,7 @@ author:			ruckage
 		</text>		
 		
 		<rating name="md_rating">
-			<pos>0.0361111111111111 0.762962962962963</pos>
+			<pos>0.0430555555555556 0.762962962962963</pos>
 		</rating>	
 
 		<text name="played_label" extra="true">
@@ -130,7 +167,7 @@ author:			ruckage
 		</text>
 				
 		<datetime name="md_releasedate">
-			<pos>0.2083333333333333 0.2037037037037037</pos>
+			<pos>0.22 0.2037037037037037</pos>
 		</datetime>
 		
 		<text name="md_publisher">

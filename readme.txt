@@ -1,6 +1,6 @@
 Theme designed by Ruckage
-Version 2.1
-03/07/2017
+Version 2.11
+05/07/2017
 
 Theme based on and inspired by the look of the menus used on the Famicom mini.
 Designed for use at 1080p only.
@@ -69,6 +69,9 @@ Virtual Boy
 Thanks to retropie forum member Stuart2773 for the inspiration.
 
 Thanks to reddit user soulctcher for providing the sound effects.
+
+05/07/2017
+Added support for NTSC resolution.
 
 03/07/2017
 Fixed gamelist issues in the latest version of ES.  Added support for various resolutions including 4x3 resolutions (see ## RESOLUTION AND LAYOUTS GUIDE ##.txt for instructions). Added Daphne,PSP, SG-1000, Atari Lynx, Ports, and Virtual Boy.  Added new style carousel and pixel art icons.  Added new 'neogeo' style.

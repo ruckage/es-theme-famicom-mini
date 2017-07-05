@@ -107,7 +107,7 @@ author:			ruckage
 			<color>ffffff</color>
 		</text>
 
-		<text name="md_rating, md_developer, md_publisher, md_genre, md_playcount, md_releasedate">
+		<text name="md_developer, md_publisher, md_genre, md_playcount, md_releasedate">
 			<color>000000</color>
 		</text>		
 		

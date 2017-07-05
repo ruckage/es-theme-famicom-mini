@@ -1,0 +1,23 @@
+<!--
+author:			ruckage
+-->
+
+
+<theme>
+
+	<include>./ntsc-setup.xml</include>
+
+    <view name="basic, detailed,video">
+
+		<textlist name="gamelist">
+			<size>0.5722222222222222 0.5481481481481481</size>
+			<pos>0.3805555555555556 0.2185185185185185</pos>			
+			<lineSpacing>1.395</lineSpacing>
+			<selectorHeight>0.0740740740740741</selectorHeight>
+			<selectorOffsetY>0</selectorOffsetY>
+			<horizontalMargin>0.0166666666666667</horizontalMargin>
+		</textlist>
+		
+	</view>
+
+</theme>

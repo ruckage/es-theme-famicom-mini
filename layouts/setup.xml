@@ -9,6 +9,15 @@ author:			ruckage
 	<feature supported="carousel">
 
 		<view name="system">
+		
+		<image name="background" extra="true">
+			<size>0 1</size>
+			<zIndex>-100</zIndex>
+		</image>		
+		
+		<image name="system_help" extra="true">
+			<size>0 0.1074074074074074</size>
+		</image>		
 
 			<carousel name="systemcarousel">
 				<pos>-0.0 0.3</pos>
@@ -32,13 +41,34 @@ author:			ruckage
 
 		</view>
 
-	</feature>		
+	</feature>
+
+	<view name="basic, detailed, system, video">
+	
+		<image name="header" extra="true">
+			<size>0 0.1185185185185185</size>
+		</image>
+		
+		<image name="header-mask" extra="true">
+			<size>0 0.1185185185185185</size>
+		</image>
+		
+		<image name="developer" extra="true">
+			<size>0 0.1185185185185185</size>
+		</image>
+
+	</view>	
 	
     <view name="basic, detailed, video">
 			
 		<image name="background" extra="true">
-
+			<size>0 1</size>
+			<zIndex>-100</zIndex>
 		</image>
+
+		<image name="gamelist_help" extra="true">
+			<size>0 0.1074074074074074</size>
+		</image>	
 		
 		<image name="md_image">
 			<maxSize>0.2416666666666667 0.4296296296296296</maxSize>
@@ -156,6 +186,8 @@ author:			ruckage
 			<size>0.09375 0.0333333333333333</size>
 			<text>Rating</text>
 		</text>	
+		
+
 
 		<text name="played_label" extra="true">
 			<alignment>center</alignment>
