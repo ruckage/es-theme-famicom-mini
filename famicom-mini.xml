@@ -50,6 +50,20 @@ author:			ruckage
 		</view>
 
 	</feature>	
+	
+    <view name="video">
+		
+		<video name="md_video">
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+			<showSnapshotDelay>true</showSnapshotDelay>
+			<delay>2</delay>			
+		</video>
+		
+		<image name="md_marquee">
+			<pos>2 2</pos>
+		</image>
+
+	</view>	
 
     <view name="basic, detailed, video">
 	

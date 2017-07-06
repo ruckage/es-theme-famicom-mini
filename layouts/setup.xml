@@ -74,6 +74,10 @@ author:			ruckage
 			<maxSize>0.2416666666666667 0.4296296296296296</maxSize>
 		</image>
 		
+		<video name="md_video">
+			<maxSize>0.2416666666666667 0.4296296296296296</maxSize>
+		</video>		
+		
 		<text name="md_developer, md_publisher, md_genre">
 			<size>0.25 0.0333333333333333</size>
 		</text>		

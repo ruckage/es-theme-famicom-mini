@@ -1,6 +1,6 @@
 Theme designed by Ruckage
-Version 2.11
-05/07/2017
+Version 2.21
+06/07/2017
 
 Theme based on and inspired by the look of the menus used on the Famicom mini.
 Designed for use at 1080p only.
@@ -69,6 +69,9 @@ Virtual Boy
 Thanks to retropie forum member Stuart2773 for the inspiration.
 
 Thanks to reddit user soulctcher for providing the sound effects.
+
+06/07/2017
+Added video support. Added 1366x768 resolution. Added alternate SNES USA icon. Removed year box from system icons that don't need it.
 
 05/07/2017
 Added support for NTSC resolution.
