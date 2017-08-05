@@ -1,0 +1,51 @@
+<theme>
+    <formatVersion>3</formatVersion>
+    <include>./../famicom-mini.xml</include>
+	
+
+	<view name="system">
+
+		<image name="logo">
+			<path>./carousel_logo.png</path>
+        </image>
+		
+		<helpsystem name="help">
+			<textColor>f11c00</textColor>
+			<iconColor>f11c00</iconColor>
+		</helpsystem>
+		
+	</view>
+
+	<view name="basic, detailed, system, video">
+	
+		<image name="header" extra="true">
+			<path>./header.png</path>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+		</image>
+		
+		<image name="header-mask" extra="true">
+			<path>./header-mask.png</path>
+			<pos>1 0</pos>
+			<origin>1 0</origin>
+		</image>
+		
+		<image name="developer" extra="true">
+			<path>./developer.png</path>
+			<pos>1 0</pos>
+			<origin>1 0</origin>
+		</image>
+
+	</view>
+
+	<view name="basic, detailed, video">
+		<image name="logo">
+			<path>./logo.png</path>
+			<pos>2 2</pos>
+			<maxSize>0.1 0.1</maxSize>
+			<origin>0 0.5</origin>
+		</image>
+
+	</view>
+	
+</theme>
