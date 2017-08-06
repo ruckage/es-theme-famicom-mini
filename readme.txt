@@ -1,9 +1,8 @@
 Theme designed by Ruckage
-Version 2.22
-05/08/2017
+Version 2.23
+07/08/2017
 
 Theme based on and inspired by the look of the menus used on the Famicom mini.
-Designed for use at 1080p only.
 
 --------------------------------------------------------------------------------
 
@@ -18,8 +17,6 @@ Commercial distribution is prohibited
 If in doubt please ask in the dedictated topic at the retropie forum: https://retropie.org.uk/forum/topic/8391/cardboard-mini-nes-nes-mini-and-famicom-mini-themes
 
 -------------------------------------------------------------------------------   
-
-
 
 Currently this theme supports:
 
@@ -68,12 +65,16 @@ Virtual Boy
 auto-favorites
 auto-lastplayed
 auto-allgames
+Dreamcast
+Sega 32x
 
 
 Thanks to retropie forum member Stuart2773 for the inspiration.
 
 Thanks to reddit user soulctcher for providing the sound effects.
 
+07/08/2017
+Added 2 new systems - Dreamcast and Sega 32x.
 
 05/08/2017
 Added 3 systems to support the new game collections feature (auto-favorites, auto-lastplayed, auto-allgames.)
